@@ -663,3 +663,5 @@ def keep_warm_callback(event, context):
         event={}, context=context
     )  # overriding event with an empty one so that web app initialization will
     # be triggered.
+
+LambdaHandler()
